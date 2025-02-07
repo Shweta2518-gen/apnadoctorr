@@ -1,0 +1,468 @@
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Salsa', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+/* nav bar */
+.nav-first {
+    padding: 10px;
+    background-color: #15d1df;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* Additional styling for the navigation bar if needed */
+}
+.brand-logo {
+    width: 150px; /* Adjust the size of the logo */
+    height: auto; /* Keep aspect ratio */
+    padding-left: 5px;
+}
+
+.logo{
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.container {
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    gap: 20px; /* Add space between the items */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Change link color */
+}
+
+.get-started {
+    /* Youpadding: 6px 12px; /* Make the button smaller by reducing padding */
+    font-size: 14px; /* Smaller text size */
+    border-radius: 25px; /* Makes the button round */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease; 
+}
+
+.active {
+    font-weight: bold; /* Add styling for active links */
+}
+
+.nav-first ol {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-first a {
+    color: rgb(17, 16, 16);
+    text-decoration: none;
+}
+
+.get-started {
+    background-color: #ff5722;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.hero-section{
+    padding: auto;
+}
+
+/* Hero Section Box */
+.hero-section-box {
+    display: flex;
+    align-items: center;
+}
+
+.image-girl-box {
+    width: 100px;
+    margin-right: 20px;
+    
+}
+
+.btn {
+    background-color: #ff5722;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Section 2 */
+.section-2 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.ai-doctor-png {
+    width: 150px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+/* Section 3 */
+.section-3 {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    transition: margin-top 0.3s ease-in-out; /* Smooth transition */
+}
+.section-3 h1{
+    text-align: center;
+}
+
+.benefits-boxces {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.benefits-box1, .benefits-box2, .benefits-box3 {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+}
+
+.benefits-box1 img, .benefits-box2 img, .benefits-box3 img {
+    width: 50px;
+}
+
+.video-box {
+    width: 800px;
+    height: 500px;
+    background-color: #f0efef;
+    margin-left: 280px;
+    margin-top: 20px;
+    border-radius: 25px;
+    
+}
+
+.video-box h1 {
+    font-family: "Salsa", serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.video-box video {
+    margin-left: 260px;
+    margin-top: 30px;
+}
+    
+
+.emergency-features {
+    margin: 50px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.emergency-features h2 {
+    font-family: "Salsa", serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: red;
+}
+
+.feature-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+    font-family: "Salsa", serif;
+    font-size: 20px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.feature i {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.feature button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.feature button:hover {
+    background-color: rgb(194, 2, 2);
+}
+
+
+.about-us-box {
+    background-color: white;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-box h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.about-us-box hr {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.about-us-box p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.sign-in-page-box {
+    background-color: white;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.sign-in-page-box h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.sign-in-page-box .form-box {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.sign-in-page-box label {
+    font-size: 16px;
+    color: black;
+}
+
+.sign-in-page-box input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.sign-in-page-box #sign-in-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sign-in-page-box #sign-in-btn:hover {
+    background-color: rgb(194, 2, 2);
+}
+
+.sign-in-page-box p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.sign-in-page-box u {
+    cursor: pointer;
+    color: red;
+}
+
+.sign-in-page-box u:hover {
+    color: darkred;
+}
+
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #15d1df;
+    color: white;
+}
+
+.footer-brand-name {
+    width: 150px;
+}
+
+
+/* search result */
+#details-box {
+    margin-top: 10px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Hidden by default */
+    z-index: 10;
+}
+
+#details-box h2 {
+    margin: 0;
+    color: #ff5722;
+}
+
+#details-box p {
+    margin-top: 5px;
+    color: #333;
+}
+
+.section-3 {
+    transition: margin-top 0.3s ease-in-out; /* Smooth spacing transition */
+}
+#clear-button {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    cursor: pointer;
+    color: #999;
+    display: none;
+}
+
+#clear-button:hover {
+    color: #ff5722;
+}
+
+/* Loader Screen */
+/* Fade-out effect when page loads */
+
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 2s ease-out; /* Longer transition time */
+}
+
+#loader.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+#loader-logo {
+    width: 150px; /* Adjust logo size */
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards; /* Smooth fade-in */
+}
+
+/* Fade-out effect when page loads */
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* Fade-in effect for the logo */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
